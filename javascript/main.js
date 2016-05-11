@@ -1,10 +1,10 @@
 jQuery(document).ready(function($) {
 
-    $('#checkbox').change(function() {
-        setInterval(function() {
-            moveRight();
-        }, 3000);
-    });
+    // $('#checkbox').change(function() {
+    //     setInterval(function() {
+    //         moveRight();
+    //     }, 3000);
+    // });
 
     var slideCount = $('#slider ul li').length;
     var slideWidth = $('#slider ul li').width();
@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
-    };
+    }
 
     function moveRight() {
         $('#slider ul').animate({
@@ -39,7 +39,7 @@ jQuery(document).ready(function($) {
             $('#slider ul li:first-child').appendTo('#slider ul');
             $('#slider ul').css('left', '');
         });
-    };
+    }
 
     $('a.control_prev').click(function() {
         moveLeft();
