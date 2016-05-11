@@ -81,25 +81,19 @@ a.control_next {
 }
 
 /*.slider_option {*/
-    /*position: relative;*/
-    /*margin: 10px auto;*/
-    /*width: 160px;*/
-    /*font-size: 18px;*/
-/*}*/
-
-
-
+/*position: relative;*/
+/*margin: 10px auto;*/
 .img-with-text img {
     display: block;
     margin: 0 auto;
     height: 250px;
 }
 
-.img-with-text p{
+.img-with-text p {
     padding: 0 23px 0 23px;
     text-align: -webkit-left;
 }
 
-.img-with-text h3{
+.img-with-text h3 {
     text-align: center;
 }
